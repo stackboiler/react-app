@@ -14,7 +14,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-app-rewired build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "deploy": "npm run build && npx wrangler deploy"
@@ -38,6 +38,7 @@
     ]
   },
   "devDependencies": {
-    "eslint-plugin-jsx-a11y": "^6.10.2"
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "react-app-rewired": "^2.2.1"
   }
 }
